@@ -1,0 +1,48 @@
+/*Cabeçalho*/
+header {
+    background-color: #4c986e; 
+    font-family: Arial;
+    color:  #e6e6e6;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+}
+
+header h1 { 
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+}
+
+ul li {
+    style: none;
+    display: inline;
+}
+
+ul li a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 24px;
+    margin-right: 10px
+}
+
+/*Principal*/
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Divide em 4 colunas de tamanhos iguais */
+    gap: 16px; /* Espaço idêntico entre cada foto */
+    max-width: 1200px; /* Limita a largura máxima da fileira */
+    margin: 0 auto; /* Centraliza o bloco inteiro na tela */
+    padding: 0 20px; /* Margem de segurança para telas menores */
+}
+
+main img {
+    width: 100%; /* Preenche totalmente a coluna */
+    aspect-ratio: 4 / 3; /* Deixa todas as fotos no formato retangular padrão (ajuste se preferir quadrado 1/1) */
+    object-fit: cover; /* Corta e ajusta as fotos sem distorcer ou esticar */
+    border-radius: 8px; /* Deixa os cantos levemente arredondados */
+}
