@@ -1,0 +1,42 @@
+/*Cabeçalho*/
+header {
+    background-color: #4c986e; 
+    font-family: Arial;
+    color:  #e6e6e6;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+}
+
+header h1 { 
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+}
+
+ul li {
+    style: none;
+    display: inline;
+}
+
+ul li a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 24px;
+    margin-right: 10px
+}
+
+/*Principal*/
+main {
+    background-color: #4c986e; 
+    font-family: Arial;
+    color:  #e6e6e6;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+}
