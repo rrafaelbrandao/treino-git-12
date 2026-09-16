@@ -31,6 +31,13 @@ ul li a {
 }
 
 /*Principal*/
-main img {
-    width: 100%; //Largura
+main ul {
+    background-color: #4c986e; 
+    font-family: Arial;
+    color:  #e6e6e6;
+}
+
+main ul h2{
+    font-family: Arial;
+    color:  #a50202;
 }
